@@ -40,7 +40,7 @@
 		4E3D988E29773F1C007A3C07 = {
 			isa = PBXGroup;
 			children = (
-				4E3D989929773F1C007A3C07 /* Repair */,
+				4E3D989929773F1C007A3C07 /* Repair App */,
 				4E3D989829773F1C007A3C07 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -53,18 +53,42 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		4E3D989929773F1C007A3C07 /* Repair */ = {
+		4E3D989929773F1C007A3C07 /* Repair App */ = {
+			isa = PBXGroup;
+			children = (
+				4E3D98AE29773F60007A3C07 /* Startup */,
+				4E3D98AF29773F95007A3C07 /* Resources */,
+				4E3D98B029773FEC007A3C07 /* Scenes */,
+				4E3D989E29773F1C007A3C07 /* ViewController.swift */,
+				4E3D98A029773F1C007A3C07 /* Main.storyboard */,
+				4E3D98A829773F1E007A3C07 /* Info.plist */,
+			);
+			path = "Repair App";
+			sourceTree = "<group>";
+		};
+		4E3D98AE29773F60007A3C07 /* Startup */ = {
 			isa = PBXGroup;
 			children = (
 				4E3D989A29773F1C007A3C07 /* AppDelegate.swift */,
 				4E3D989C29773F1C007A3C07 /* SceneDelegate.swift */,
-				4E3D989E29773F1C007A3C07 /* ViewController.swift */,
-				4E3D98A029773F1C007A3C07 /* Main.storyboard */,
-				4E3D98A329773F1E007A3C07 /* Assets.xcassets */,
-				4E3D98A529773F1E007A3C07 /* LaunchScreen.storyboard */,
-				4E3D98A829773F1E007A3C07 /* Info.plist */,
 			);
-			path = Repair;
+			path = Startup;
+			sourceTree = "<group>";
+		};
+		4E3D98AF29773F95007A3C07 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				4E3D98A529773F1E007A3C07 /* LaunchScreen.storyboard */,
+				4E3D98A329773F1E007A3C07 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		4E3D98B029773FEC007A3C07 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Scenes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
